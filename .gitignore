@@ -1,0 +1,5 @@
+.vscode/
+chroma_db/
+rag_env/
+uploads/
+.env

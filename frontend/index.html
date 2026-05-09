@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Document Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<div id="toast" class="toast"></div>
+<body>
+  <div class="app">
+
+<main class="chat-area">
+  <div class="hero" id="hero">
+    <h1 class="welcome-title">Welcome to RAG Assistant</h1>
+    <h1>What can I help with?</h1>
+  </div>
+
+      <div class="floating-pdf-card" id="floatingPdfCard">
+        <div class="pdf-icon">📄</div>
+        <div>
+          <strong id="floatingDocName">No PDF uploaded</strong>
+          <span>PDF</span>
+        </div>
+      </div>
+
+      <section id="chatBox" class="chat-box"></section>
+
+      <div class="input-wrapper">
+        <div class="input-bar">
+
+          <div class="attached-file" id="attachedFile">
+            <div class="file-icon">📄</div>
+            <div class="file-info">
+              <strong id="docName">No PDF uploaded</strong>
+              <span id="uploadStatus">PDF</span>
+            </div>
+            <button id="removeFileBtn" class="remove-file">×</button>
+          </div>
+
+          <div class="input-row">
+            <button id="plusBtn" class="plus-btn">+</button>
+            <input type="file" id="pdfInput" accept="application/pdf" hidden />
+
+            <input
+              type="text"
+              id="questionInput"
+              placeholder="Ask anything"
+            />
+
+            <button id="sendBtn" class="send-btn">➤</button>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
