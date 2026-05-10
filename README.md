@@ -3,7 +3,13 @@
 A web-based RAG application that allows users to upload PDF documents and ask questions from them using semantic search and an LLM.
 
 ---
+## Demo
 
+### Video Demo
+
+[Watch Demo Video](assets/Rag Document Assistant Demo Project.mp4)
+
+---
 ## Features
 
 - Upload PDF documents
