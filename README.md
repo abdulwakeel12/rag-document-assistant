@@ -7,7 +7,7 @@ A web-based RAG application that allows users to upload PDF documents and ask qu
 
 ### Video Demo
 
-[Watch Demo Video](assets/Rag%20Document%20Assistant%20Demo%20Project.mp4)
+[Watch Demo Video](assets/demo.mp4)
 
 ---
 ## Features
