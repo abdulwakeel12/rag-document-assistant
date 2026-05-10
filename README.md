@@ -1,6 +1,12 @@
 # RAG Document Assistant
 
-I built a RAG-based document assistant using FastAPI, ChromaDB, SentenceTransformers, and Groq LLM. Users upload a PDF from the frontend UI. The backend extracts text from the PDF using pypdf, splits the text into chunks, converts each chunk into embeddings using SentenceTransformers, and stores those embeddings in ChromaDB. When the user asks a question, the question is also converted into an embedding. ChromaDB performs semantic similarity search to retrieve the most relevant chunks from the uploaded document. Those retrieved chunks are sent as context to the Groq LLM, which generates the final answer. The frontend communicates with the FastAPI backend using HTTP API calls.
+I built a RAG-based document assistant using FastAPI, ChromaDB, SentenceTransformers, and Groq LLM.
+
+Users upload a PDF from the frontend UI. The backend extracts text from the PDF using pypdf, splits the text into chunks, converts each chunk into embeddings using SentenceTransformers, and stores those embeddings in ChromaDB.
+
+When the user asks a question, the question is also converted into an embedding. ChromaDB performs semantic similarity search to retrieve the most relevant chunks from the uploaded document. Those retrieved chunks are sent as context to the Groq LLM, which generates the final answer.
+
+The frontend communicates with the FastAPI backend using HTTP API calls.
 
 ---
 ## Demo
