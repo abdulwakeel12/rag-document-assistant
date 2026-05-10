@@ -84,8 +84,8 @@ frontend/index.html
 
 The following are ignored for security and storage reasons:
 
-- `.env`
-- `uploads/`
+- `.vscode/`
 - `chroma_db/`
 - `rag_env/`
-- `__pycache__/`
+- `uploads/`
+- `.env`
