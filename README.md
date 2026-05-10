@@ -5,9 +5,7 @@ A web-based RAG application that allows users to upload PDF documents and ask qu
 ---
 ## Demo
 
-### Video Demo
-
-[Watch Demo Video](assets/demo.mp4)
+🎥 **Video Demo:** [Watch on YouTube]([PASTE_YOUR_YOUTUBE_LINK_HERE](https://www.youtube.com/watch?v=avvtYP-iho0))
 
 ---
 ## Features
